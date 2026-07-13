@@ -2,7 +2,7 @@
 #TALKS TO DATABASE AND PERFORMS CRUD OPERATIONS
 
 from sqlalchemy.orm import Session
-from .models import Company
+from .model import Company
 
 
 def create_company(db: Session, company):

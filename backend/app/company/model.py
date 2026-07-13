@@ -1,6 +1,6 @@
 ##DEFINES DATABASE TABLES
 from sqlalchemy import Column, Integer, String
-from .database import Base
+from ..database.connection import Base
 
 
 class Company(Base):
